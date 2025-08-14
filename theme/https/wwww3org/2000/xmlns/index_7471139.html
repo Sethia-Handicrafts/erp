@@ -1,0 +1,37 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>A Namespace Name for xmlns Attributes</title>
+</head>
+<body>
+<p>See:</p>
+
+<ul>
+<li><a href="https://www.w3.org/TR/1999/REC-xml-names-19990114">
+<cite>Namespaces in XML</cite></a>, 14 Jan 1999.</li>
+</ul>
+
+<p>The prefix <tt>xmlns:</tt> was specified as a syntactic device
+for declaring namespaces, but was not itself associated with any
+namespace name by the Jan 1999 namespaces specification. But in some
+processing contexts, e.g. <a href="../../DOM">DOM</a>, it is useful
+to represent all XML attributes as (namespace name, local name)
+pairs. For this purpose, the namespace name <tt>
+http://www.w3.org/2000/xmlns/</tt> is assigned.</p>
+
+<p>Note that you <strong>must</strong> use the reserved prefix <tt>
+xmlns:</tt> when declaring namespaces. It does <em>not</em> work to
+declare another prefix with this namespace name and then try to use
+it for namespace declarations.</p>
+
+<p>The attribute name <tt>xmlns</tt>, which is used to declare the
+default namespace, is also hereby associated with this namespace
+name.</p>
+
+<address>John Cowan and Dan Connolly, for
+<br />
+ <a href="../../XML/Activity#core-wg">the W3C XML Core WG</a>
+<br />
+ $Revision: 1.7 $ of $Date: 2011/10/28 04:46:37 $ by $Author: liam $</address>
+</body>
+</html>
+

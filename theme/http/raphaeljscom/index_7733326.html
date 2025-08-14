@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	
+	<!-- This site is optimized with the Yoast SEO plugin v14.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>An Intro to Raphaël - Rapha&euml;l</title>
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="http://raphaeljs.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="An Intro to Raphaël - Rapha&euml;l" />
+	<meta property="og:description" content="The most popular coding language for the web is javascript; so much so that since the advent of HTML5, it has now been officially accepted as the default standard. Javascript has moved beyond a smaller client-side browser-based language to become integrated not just for front-end design, but also for back-end server-side development. As a result [&hellip;]" />
+	<meta property="og:url" content="http://raphaeljs.com/" />
+	<meta property="og:site_name" content="Rapha&euml;l" />
+	<meta property="article:modified_time" content="2019-03-03T21:33:48+00:00" />
+	<meta property="og:image" content="http://raphaeljs.com/wp-content/uploads/2018/09/circle.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"http://raphaeljs.com/#website","url":"http://raphaeljs.com/","name":"Rapha&euml;l","description":"JavaScript Library","potentialAction":[{"@type":"SearchAction","target":"http://raphaeljs.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en"},{"@type":"ImageObject","@id":"http://raphaeljs.com/#primaryimage","inLanguage":"en","url":"http://raphaeljs.com/wp-content/uploads/2018/09/circle.png","width":64,"height":68},{"@type":"WebPage","@id":"http://raphaeljs.com/#webpage","url":"http://raphaeljs.com/","name":"An Intro to Rapha\u00ebl - Rapha&euml;l","isPartOf":{"@id":"http://raphaeljs.com/#website"},"primaryImageOfPage":{"@id":"http://raphaeljs.com/#primaryimage"},"datePublished":"2018-09-23T16:49:09+00:00","dateModified":"2019-03-03T21:33:48+00:00","inLanguage":"en","potentialAction":[{"@type":"ReadAction","target":["http://raphaeljs.com/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Rapha&euml;l &raquo; Feed" href="http://raphaeljs.com/feed" />
+<link rel="alternate" type="application/rss+xml" title="Rapha&euml;l &raquo; Comments Feed" href="http://raphaeljs.com/comments/feed" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/raphaeljs.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.15"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='http://raphaeljs.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.15' type='text/css' media='all' />
+<link rel='stylesheet' id='headline-style-css'  href='http://raphaeljs.com/wp-content/themes/headline/style.css?ver=5.5.15' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="http://raphaeljs.com/wp-json/" /><link rel="alternate" type="application/json" href="http://raphaeljs.com/wp-json/wp/v2/pages/8" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://raphaeljs.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://raphaeljs.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.15" />
+<link rel='shortlink' href='http://raphaeljs.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://raphaeljs.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fraphaeljs.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://raphaeljs.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fraphaeljs.com%2F&#038;format=xml" />
+</head>
+
+<body class="home page-template-default page page-id-8 hdl-orange">
+
+
+
+<div id="page" class="site">
+	
+	<div class="site-header">
+	<div class="container"><div class="row">
+		<div class="col-md-12">
+	
+			<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+			<header id="masthead">
+				<div class="site-branding text-center">
+											<p class="site-title"><a href="http://raphaeljs.com/" rel="home">Rapha&euml;l</a></p>
+												<p class="site-description">JavaScript Library</p>
+									</div><!-- .site-branding -->
+			</header>
+		</div>
+	</div></div><!-- .container -->
+	</div>
+	
+	<div class="main-navigation-container">
+		<div class="container"><div class="row">
+			<div class="col-md-12">
+					
+						<nav id="site-navigation" class="main-navigation">
+							<div class="menu-toggle-container text-center">
+								<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menu</button>
+							</div>
+							<div id="primary-menu" class="menu"><ul>
+<li class="page_item page-item-8 current_page_item"><a href="http://raphaeljs.com/" aria-current="page">An Intro to Raphaël</a></li>
+</ul></div>
+							
+						</nav><!-- #site-navigation -->
+					
+				</header><!-- #masthead -->
+		
+			</div>
+		</div></div><!-- container -->
+	</div><!-- main-navigation-container -->
+
+	<div id="content" class="site-content">
+	<div class="container"><div class="row">	<div class="col-md-9  right-sidebar">		<div id="primary" class="content-area">
+			<main id="main" class="site-main">
+
+			
+<article id="post-8" class="post-8 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">An Intro to Raphaël</h1>	</header><!-- .entry-header -->
+
+	
+	<div class="entry-content">
+		<p>The most popular coding language for the web is javascript; so much so that since the advent of HTML5, it has now been officially accepted as the default standard. Javascript has moved beyond a smaller client-side browser-based language to become integrated not just for front-end design, but also for back-end server-side development. As a result there are has been a huge growth of Javascript libraries, ranging from the popular JQuery library all the way through React.js, Angular, and VUE.js.</p>
+<p>While can seem a little overwhelming deciding which library or framework to use for developing your pages, once you get an understanding of the strengths and weaknesses of the different languages, the decision becomes a good deal less complicated . There&#8217;s no reason to stick with a single library, and different frameworks have different purposes. This is absolutely as true with Raphael.js as it is with any of the others.</p>
+<p>However, before we discuss this, let&#8217;s take a step back. The main area where Javascript continues to reign is in front-end development, which continues to be one of the biggest growth areas on the web. This is the case for some fairly obvious reasons; it is the part of the web that people <i>see</i>. One of the biggest appeals of developing for the front end, is that it is an excellent place for <i>artists</i> to show their work.</p>
+<p>Historically, artists will work with any medium that can be manipulated for creative purposes., but each generation finds new ones that become popular. As cave walls were a popular artistic medium in the earliest stages in human development, modes of expression soon moved toward creating sculptures in stone.</p>
+<p>As new materials appeared, they too became used for artistic expression. Throughout much of civilized history, canvas and oil paints made it possible for fantastic paintings to be created. In fact the word “canvas” has now become synonymous with any artistic medium.</p>
+<p>Today, one of the most popular artistic media is the web, and the web browser has become a new canvas. Artists flock to the web, not only because of its flexibility, but also because it can serve simultaneously as a gallery for works, be they individual masterpieces, or functional and usable artisinal pieces. <a href="https://www.theblogstarter.com">Anyone can start a blog</a>, and if it can be created, it can be viewed by anyone, by typing in a simple URL or clicking a link.</p>
+<p>The web becomes the gallery, and the browser becomes our canvas, but we need our tools, our paint, and our brushes. This is where Raphael appears.</p>
+<h3><b>What is Raphael?</b></h3>
+<p>Named for the artist Raffaello Sanzio da Urbino, Rapahel.js is a javascript library designed specifically for artists and graphic designers. It is the brush that you can use to apply images directly to the canvas of the browser.</p>
+<p>With Raphael.js you are given the power of Scalable Vector Graphics (SVG) to be able to use your web browser to created detailed drawings, which, when combined with the pigments available in your CSS paint kit, you can create beautiful and professional graphics right on the screen, without having to rely on using uploaded images. As Javascript has already become the official language of the web, it should work seamlessly with almost any browser, and load quickly into any web page.</p>
+<h3><b>Scalable Vector Graphics</b></h3>
+<p>Let&#8217;s take a look at Scalable Vector Graphics, or SVG. As a graphic artist, you may already be familiar with SVG. If you&#8217;re not, let’s break this down a little. Vector graphics are a method for creating digital images using mathematical commands in a two or three-dimensional space. If you remember your high-school math, you&#8217;ll remember the XY axis. That is your two dimensional space, with X representing a horizontal coordinate, and Y, the vertical. (For three dimensions, you add Z for depth, but that&#8217;s beyond where we&#8217;re going here). Scalable Vector Graphics are simply a method of describing drawings in this system using an XML format. Here&#8217;s an example for drawing a circle:</p>
+<pre><code>
+&lt;svg width="80" height="80"&gt; 
+&lt;circle cx="40" cy="40" r="30" stroke="#000" stroke-width="1" fill="#FFF" /&gt; 
+&lt;/svg&gt; 
+</code></pre>
+<p><img loading="lazy" class="aligncenter size-full wp-image-11" src="http://raphaeljs.com/wp-content/uploads/2018/09/circle.png" alt="" width="64" height="68" /></p>
+<p>You&#8217;ll note that we are defining the size of the circle and then the XY axis at half of the size, and then the “r” simply specifies the radius. Pretty straightforward, right?</p>
+<h3><b>Raphael Demonstration</b></h3>
+<p>Using SVG drawing images into an HTML page will work, however it can be fairly clumsy for actual graphic design. It is necessary to define each and every element, and your code can end up a little cluttered. You can do much of what you want, but you will need to define each and every element, and it requires a little more complex visualization to be able to create more elaborate designs. Styling the image means jumping back and forth into your CSS files, or putting awkward inline styles directly into your code. Actually creating art or useful designs beyond those simply shapes can require a monumental amount of effort (not to mention how unsightly your code can start to look!)</p>
+<p>Let&#8217;s take a quick look at what Raphael can do. With only a few lines of code, you can draw far more elaborate shapes, using vectors as if you are handling a brush or pencil. Here&#8217;s the same image, using Raphael.</p>
+<pre><code>
+&lt;div id="container"&gt;&lt;/div&gt; 
+&lt;script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"&gt; &lt;/script&gt; 
+&lt;script&gt; 
+var paper = Raphael("container", 500, 300); 
+var dot = paper.circle(250, 150, 30).attr({ 
+fill: "#FFF", 
+stroke: "#000", 
+"stroke-width": 1 
+}); 
+&lt;/script&gt; 
+</code></pre>
+<p>If you run this in your browser, you&#8217;ll see that it works very similarly. However in the code, you can see a few difference. First you&#8217;ll note that we have defined a container div, and within the Raphael object, we have set some clearly defined dimensions on the XY axis. This your canvas. Like a painter, you have set up your work space. You have a clean, blank surface with which to work. Everything you work on, will now live within your canvas (in this case, named named as the variable “paper”). You can see that not only did we define the circle, but we also defined the XY location on the paper itself. However, as Raphael is a javascript library, we have the ability to be a lot more flexible and can create shapes that could be painstaking if done manually using SVG in the XML format. By bringing in some of your basic mathematical skills, you can create shapes that would have taken a long time to create, using other methods. Here&#8217;s an example of one of the creative things that you can do:</p>
+<pre>window.onload = function() {
+var paper = new Raphael("container", 500, 300);
+for(var i = 0; i &lt; 5; i+=1) {
+var multiplier = i*5;
+paper.circle(250 + (2*multiplier), 150 + multiplier, 50 - multiplier)
+</pre>
+<p>With a few few quick calculations using the power of Javascript, you can generate an image that looks like this:</p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-13" src="http://raphaeljs.com/wp-content/uploads/2018/09/circles.png" alt="" width="129" height="118" /></p>
+<p>You can begin to see the possibilities. Raphael let&#8217;s you enter create complex images mathematically right in the page, without having to jump back and forth into the CSS file. Let&#8217;s take a look at what we can do if we just add a little bit of styling right into our original image:</p>
+<pre>var dot = paper.circle(250, 150, 30).attr({
+gradient: '90-#000-#FF0000',
+stroke: '#000',
+'stroke-width': 3,
+'stroke-linejoin': 'round',
+rotation: -120
+});
+</pre>
+<p>Your simple circle is suddenly no longer just a plain image on the page. You should get a result that looks like this:</p>
+<p><img loading="lazy" class="aligncenter size-full wp-image-12" src="http://raphaeljs.com/wp-content/uploads/2018/09/redcircle.png" alt="" width="81" height="81" /></p>
+<p>The results you get start to take a genuine artistic flair, and suddenly your SVG images start to come alive. If you are already familiar with the power of using SVG, you already know that there&#8217;s a lot more that you can do than making pretty colored circles. You can draw pretty much any shape that comes to mind, ranging from other basic geometric shapes, to straight lines, to curving arcs and patterns.</p>
+<h3><b>Why use Raphael?</b></h3>
+<p>After going over some of the demonstrations above, I can already sense the excitement you are feeling as you become familiar with what Raphael can do. While there are a few other libraries that can do similar things as Raphael, such as D3, Raphael is distinct for a few reasons.</p>
+<p>D3 is certainly a very powerful tool and will do much of what Raphael does. Most of what you can do in Raphael you can also do in D3. Many will argue that D3 is far more powerful, and indeed it can handle more complex graphics, particularly for business purposes. However, from an artistic standpoint, you already know that you don&#8217;t always want to use the same tool for everything. Sure D3 is powerful. So is a heavy duty spray gun. That does not mean that it is right for all artistic purposes. Sometimes you only need a simple brush.</p>
+<p>Raphael also has a few advantages that D3 does not. Raphael has a much lower learning curve. From an artistic point-of view, you may not wish to spend months getting used to your tools, when all you really want do is to start painting. Another huge advantage of Raphael is that it will work in older browsers. Older versions of IE do not allow SVG to be rendered directly. Raphael will even work in IE6, something which very few modern tools can claim. From the very important standpoint of usability and user experience, as a rule, you generally do not want to force users to change their tools simply to see your beautiful creations. Raphael is also popular, meaning that not only is it likely to be around for a long time, it also means that there is a ton of support available for <i>free!</i> Who can argue with that?</p>
+<p>There really is no reason not to learn Raphael, especially considering the ease of entry, so why not jump right in and start creating?</p>
+<pre></pre>
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-8 -->
+
+			</main><!-- #main -->
+		</div><!-- #primary -->
+	</div>
+	<div class="col-md-3">
+		<aside id="secondary" class="widget-area">
+			<section id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="http://raphaeljs.com/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form></section>
+		<section id="recent-posts-2" class="widget widget_recent_entries">
+		<h2 class="widget-title">&nbsp;</h2>
+		<ul>
+											<li>
+					<a href="http://raphaeljs.com/reference.html">Documentation</a>
+									</li>
+					</ul>
+
+		</section>		</aside><!-- #secondary -->
+	</div>
+
+		</div><!-- #content -->
+	</div></div><!-- container -->
+	
+	
+	<div class="container"><div class="row">
+		<div class="col-md-12 col-lg-12">
+			<footer id="colophon" class="site-footer">
+				<div class="site-info">
+													Powered by 									Headline WordPress Theme								</a>
+									</div><!-- .site-info -->
+			</footer><!-- #colophon -->
+		</div>
+	</div></div><!-- .container -->
+	
+	
+</div><!-- #page -->
+
+<script type='text/javascript' src='http://raphaeljs.com/wp-content/themes/headline/js/script.js?ver=1.0.1' id='headline-script-js'></script>
+<script type='text/javascript' src='http://raphaeljs.com/wp-includes/js/wp-embed.min.js?ver=5.5.15' id='wp-embed-js'></script>
+
+</body>
+</html>
